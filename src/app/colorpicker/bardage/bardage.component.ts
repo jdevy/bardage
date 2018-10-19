@@ -3,13 +3,13 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MccColorPickerItem, MccColorPickerService } from '../../../lib/color-picker';
 
 @Component({
-  selector: 'app-color-picker-examples',
-  templateUrl: './color-picker-examples.component.html',
-  styleUrls: ['./color-picker-examples.component.scss'],
+  selector: 'app-bardage',
+  templateUrl: './bardage.component.html',
+  styleUrls: ['./bardage.component.scss'],
   preserveWhitespaces: false,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ColorPickerExamplesComponent implements OnInit {
+export class BardageComponent  {
   selectedColor: string;
 
   changeColor: string;
