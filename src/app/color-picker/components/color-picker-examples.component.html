@@ -1,0 +1,11 @@
+<!-- WITHOUT OVERLAY -->
+<mat-card style="margin: 0px;">
+  <mat-card-header style="padding: 10px 0px 0px 20px;">
+    <mat-card-title style="margin-bottom: 10px;">
+        <span [style.color]="changeColor !== 'none' ? changeColor : '#AEC2E2'"></span>
+        <mcc-color-picker [usedColorLabel]="'Ma sélection'" [usedColorStart]="usedStart"  [colorPickerSelectorHeight]="140" class="mcc-cp-small" [usedSizeColors]="'7'" (change)="changeColor = $event" (selected)="selectedColor = $event">
+      </mcc-color-picker>
+    </mat-card-title>
+  </mat-card-header>
+      <img mat-card-image src="./assets/img/casa_test_2.png" alt="Photo of a Shiba Inu" [style.background-color]="changeColor">
+</mat-card>
