@@ -1,22 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
-.btn-picker {
-  width: 25px;
-  height: 25px;
-  cursor: pointer;
-  background: none;
-  border: 2px solid #dddddd;
+@mixin circle($size: 100px) {
+	width: $size;
+	height: $size;
+  position: relative;
+	
+	-webkit-border-radius: $size / 2 + 0px;
+	-moz-border-radius: $size / 2 + 0px;
+	border-radius: $size / 2 + 0px;
+  
+  & > div, span {
+    width: $size - $size*0.3;
+    height: $size - $size*0.3;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+    text-align: center;
+  }
+}
 
+.btn-picker {
+  // width: 25px;
+  // height: 25px;
+  // cursor: pointer;
+  // background: none;
+  border: 4px solid #fff;
+  background: #AEC2E2 !important;
+  @include circle(50px);
+  
   &.empty {
     background: #ffffff !important;
   }
 }
 
+
 .mcc-color-picker-overlay {
   display: flex;
   width: 260px;
   min-height: 80px;
-  position: relative;
+  position: absolute;
+  top:-60px;
+  left:0px;
   flex-direction: column;
   padding: 0;
   background: #ffffff;
@@ -29,12 +53,15 @@
 }
 
 .transparent {
-  width: 32px;
-  height: 2px;
-  border-bottom: 2px solid red;
-  transform: translateY(-3px) translateX(-2px) rotate(45deg);
-  -webkit-transform: translateY(-2px) translateX(-11px) rotate(45deg);
-  position: absolute;
+  @include circle(40px);
+  background: #AEC2E2 !important;
+ 
+  // width: 32px;
+  // height: 2px;
+  // border-bottom: 2px solid blue;
+  // transform: translateY(-3px) translateX(-2px) rotate(45deg);
+  // -webkit-transform: translateY(-2px) translateX(-11px) rotate(45deg);
+  // position: absolute;
 }
 
 .mcc-color-picker-actions {
