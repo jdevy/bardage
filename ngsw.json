@@ -9,7 +9,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.725291b9ffb1d806f6b6.js",
+        "/main.566faccc964eaf1a79eb.js",
         "/polyfills.086a5b637f757f4c448b.js",
         "/runtime.a66f828dca56eeb90e02.js",
         "/styles.02d25c1acbafd30e9b57.css"
@@ -30,7 +30,9 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
-        "/assets/img/casa_test_2.png"
+        "/assets/img/casa_test_2 (copie).png",
+        "/assets/img/casa_test_2.png",
+        "/assets/img/casa_test_21.png"
       ],
       "patterns": []
     }
@@ -39,9 +41,9 @@
   "hashTable": {
     "/favicon.ico": "a88be58a28b44b2077d70b5005a01c79a1ec503d",
     "/assets/empty": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-    "/index.html": "1c3673f0a94dfc3f22f6074bb8db7aa19b07f4ec",
+    "/index.html": "a08f8059dfc1ce4138f23c1678a05842a9bdb536",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/main.725291b9ffb1d806f6b6.js": "4fc88585d997c1ce095d2904c59da01c0f24a08d",
+    "/main.566faccc964eaf1a79eb.js": "8ced4fb8d63d509018545842d4f9e8888574307f",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/polyfills.086a5b637f757f4c448b.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
     "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -52,7 +54,9 @@
     "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/assets/img/casa_test_2.png": "ed4af5725972942f4bffbfb3d523bb2c6b139f62"
+    "/assets/img/casa_test_2 (copie).png": "ed4af5725972942f4bffbfb3d523bb2c6b139f62",
+    "/assets/img/casa_test_2.png": "d10d599e30193d933c2ba10062531539975cc127",
+    "/assets/img/casa_test_21.png": "a3c0625e0e306c4e62ae808b0e7091e87b2d5e99"
   },
   "navigationUrls": [
     {
