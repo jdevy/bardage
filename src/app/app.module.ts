@@ -30,7 +30,7 @@ import { MccColorPickerModule } from '../lib';
     MatButtonModule,
     MatIconModule,
     MatToolbarModule,
-    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production }),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     CommonModule,
     ReactiveFormsModule,
     MatButtonModule,
